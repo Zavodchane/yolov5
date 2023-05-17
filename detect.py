@@ -1,5 +1,7 @@
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
 
+#Test
+
 import os
 import platform
 import sys
@@ -190,7 +192,7 @@ def run(
         LOGGER.info(f"Results saved to {colorstr('bold', save_dir)}{s}")
     if update:
         strip_optimizer(weights[0])  # update model (to fix SourceChangeWarning)
-        
+
 
 def detect(opt):
     check_requirements(exclude=('tensorboard', 'thop'))
